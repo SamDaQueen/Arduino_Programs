@@ -7,7 +7,7 @@ Programs for basic Arduino sketches along with the circuit images.
 
 ## Basic Arduino functions and their uses
 
-- [pinMode()](https://www.arduino.cc/reference/en/language/functions/digital-io/pinmode/) - Sets the given pin component to INPUT, OUTPUT or INPUT_PULLUP (high by default).
+- [pinMode()](https://www.arduino.cc/reference/en/language/functions/digital-io/pinmode/) - Sets the given pin component to INPUT, OUTPUT or [INPUT_PULLUP](https://docs.arduino.cc/learn/microcontrollers/digital-pins).
 - [digitalRead()](https://www.arduino.cc/reference/en/language/functions/digital-io/digitalread/) - Returns HIGH or LOW based on the component connected to the corresponding pin being ON or OFF respectively.
 - [digitalWrite()](https://www.arduino.cc/reference/en/language/functions/digital-io/digitalwrite/) - Sets the value of the connected component on the given pin to HIGH ot LOW as specified.
 - [analogRead()](https://www.arduino.cc/reference/en/language/functions/analog-io/analogread/) - Reads the value from the specified analog pin.
@@ -17,7 +17,9 @@ Programs for basic Arduino sketches along with the circuit images.
 
 ## Program List
 
-1. [RGB Fade](https://github.com/SamDaQueen/Arduino_Programs/tree/main/RGB_Fade) - Change RGB LED from red to green to blue in a loop with a delay.
-2. [LED 1 Button](https://github.com/SamDaQueen/Arduino_Programs/tree/main/LED_1Button) - Turn LED on or off using a button.
-3. [LED 2 Buttons](https://github.com/SamDaQueen/Arduino_Programs/tree/main/LED_2Buttons) - Turn LED on or off using two separate buttons.
-4. [Active Buzzer](https://github.com/SamDaQueen/Arduino_Programs/tree/main/Active_Buzzer) - Use an active buzzer to play Twinkle, twinkle, little star. Here is a list of other melodies that can be played: [Songs for Arduino](https://dragaosemchama.com/en/2019/02/songs-for-arduino/)
+1. [RGB Fade](./RGB_Fade) - Change RGB LED from red to green to blue in a loop with a delay.
+2. [LED 1 Button](./LED_1Button) - Turn LED on or off using a button.
+3. [LED 2 Buttons](./LED_2Buttons) - Turn LED on or off using two separate buttons.
+4. [Active Buzzer](./Active_Buzzer) - Use an active buzzer to play Twinkle, twinkle, little star. Here is a list of other melodies that can be played: [Songs for Arduino](https://dragaosemchama.com/en/2019/02/songs-for-arduino/).
+6. [Passive Buzzer](./Passive_Buzzer) - Play *do re me fa so la ti do* using a passive buzzer.
+7. [Tilt Ball Switch](./Tilt_Ball_Switch) - Turn an LED on or off based on the orientation of the tilt ball switch.
