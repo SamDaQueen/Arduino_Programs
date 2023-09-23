@@ -1,5 +1,5 @@
 #define delayTime 10 // fading time between the colors
-const int PIN_VALUES[3] = {5, 6, 3}; // defining the pin numbers for the colors RGB
+const int PIN_VALUES[3] = {6, 5, 3}; // defining the pin numbers for the colors RGB
 
 void setup() {
   // setting the output pins
