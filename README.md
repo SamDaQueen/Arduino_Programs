@@ -11,6 +11,7 @@ Programs for basic Arduino sketches along with the circuit images.
 - [digitalRead()](https://www.arduino.cc/reference/en/language/functions/digital-io/digitalread/) - Returns HIGH or LOW based on the component connected to the corresponding pin being ON or OFF respectively.
 - [digitalWrite()](https://www.arduino.cc/reference/en/language/functions/digital-io/digitalwrite/) - Sets the value of the connected component on the given pin to HIGH ot LOW as specified.
 - [analogRead()](https://www.arduino.cc/reference/en/language/functions/analog-io/analogread/) - Reads the value from the specified analog pin.
+- [analogWrite()](https://www.arduino.cc/reference/en/language/functions/analog-io/analogwrite/) - Writes an analog value (e.g. LED 0-255) to the connected component.
 - [delay()](https://www.arduino.cc/reference/en/language/functions/time/delay/) - Adds a specified millisecond pause to the program.
 - [tone()](https://www.arduino.cc/reference/en/language/functions/advanced-io/tone/) - Play the specified frequency (used on buzzer or speaker) until [noTone()](https://www.arduino.cc/reference/en/language/functions/advanced-io/notone/) is called.
 
