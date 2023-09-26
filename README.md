@@ -14,6 +14,7 @@ Programs for basic Arduino sketches along with the circuit images.
 - [analogWrite()](https://www.arduino.cc/reference/en/language/functions/analog-io/analogwrite/) - Writes an analog value (e.g. LED 0-255) to the connected component.
 - [delay()](https://www.arduino.cc/reference/en/language/functions/time/delay/) - Adds a specified millisecond pause to the program.
 - [tone()](https://www.arduino.cc/reference/en/language/functions/advanced-io/tone/) - Play the specified frequency (used on buzzer or speaker) until [noTone()](https://www.arduino.cc/reference/en/language/functions/advanced-io/notone/) is called.
+- [pulseIn()](https://www.arduino.cc/reference/en/language/functions/advanced-io/pulsein/) - Waits for a HIGH or LOW value on a given pin and returns the duration of pulse.
 
 ## Libraries used
 
@@ -29,3 +30,4 @@ Programs for basic Arduino sketches along with the circuit images.
 5. [Passive Buzzer](./Passive_Buzzer) - Play _do re me fa so la ti do_ using a passive buzzer.
 6. [Tilt Ball Switch](./Tilt_Ball_Switch) - Turn an LED on or off based on the orientation of the tilt ball switch.
 7. [Servo Motor](./Servo_Motor) - Rotate a servo motor in sweep motion and turn on LEDs depending on the angle.
+8. [Ultrasonic Sensor](./Ultrasonic_Sensor/) - Get an untrasonic sensor to measure distance from an object without using libraries. Many libraries can be found for the same when looking for "HC-SR04".
