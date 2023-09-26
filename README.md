@@ -12,7 +12,7 @@ Programs for basic Arduino sketches along with the circuit images.
 - [digitalWrite()](https://www.arduino.cc/reference/en/language/functions/digital-io/digitalwrite/) - Sets the value of the connected component on the given pin to HIGH ot LOW as specified.
 - [analogRead()](https://www.arduino.cc/reference/en/language/functions/analog-io/analogread/) - Reads the value from the specified analog pin.
 - [analogWrite()](https://www.arduino.cc/reference/en/language/functions/analog-io/analogwrite/) - Writes an analog value (e.g. LED 0-255) to the connected component.
-- [delay()](https://www.arduino.cc/reference/en/language/functions/time/delay/) - Adds a specified millisecond pause to the program.
+- [delay()](https://www.arduino.cc/reference/en/language/functions/time/delay/) - Adds a specified millisecond pause to the program. (use [delayMicroseconds()](https://www.arduino.cc/reference/en/language/functions/time/delaymicroseconds/) for shorter unit duration)
 - [tone()](https://www.arduino.cc/reference/en/language/functions/advanced-io/tone/) - Play the specified frequency (used on buzzer or speaker) until [noTone()](https://www.arduino.cc/reference/en/language/functions/advanced-io/notone/) is called.
 - [pulseIn()](https://www.arduino.cc/reference/en/language/functions/advanced-io/pulsein/) - Waits for a HIGH or LOW value on a given pin and returns the duration of pulse.
 
